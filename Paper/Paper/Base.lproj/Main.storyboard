@@ -57,7 +57,7 @@
                                 <rect key="frame" x="16" y="93" width="80" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="Kkh-hv-dPg" kind="show" animates="NO" id="HeM-JK-w8q"/>
+                                    <segue destination="cvX-iZ-17j" kind="show" id="uW4-Db-O2Y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5D1-XK-TXB">
@@ -76,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2852" y="123.68815592203899"/>
+            <point key="canvasLocation" x="2838" y="124"/>
         </scene>
         <!--Settings-->
         <scene sceneID="BAc-jD-kUR">
@@ -764,6 +764,31 @@
             </objects>
             <point key="canvasLocation" x="6525.6000000000004" y="-546.47676161919048"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ocY-ND-eFh">
+            <objects>
+                <viewController id="cvX-iZ-17j" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x2U-JT-rU1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zym-Cr-oS0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4vV-m1-fIo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cOx-YI-PFC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88582295180000004" green="0.92978441720000005" blue="0.64108389619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="keT-oU-7f1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3520.8000000000002" y="123.68815592203899"/>
+        </scene>
         <!--Search Paper-->
         <scene sceneID="P7T-fK-Ezh">
             <objects>
@@ -829,7 +854,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YGn-CW-N8Y" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3616.8000000000002" y="123.68815592203899"/>
+            <point key="canvasLocation" x="4201" y="124"/>
         </scene>
         <!--Search Paper-->
         <scene sceneID="BkC-bJ-VlM">
@@ -897,7 +922,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TtE-5Y-X6D" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4324" y="124"/>
+            <point key="canvasLocation" x="4970" y="124"/>
         </scene>
     </scenes>
     <resources>
@@ -919,4 +944,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="vIx-dN-4D5"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
