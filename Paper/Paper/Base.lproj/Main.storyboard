@@ -36,30 +36,30 @@
                                 <gestureRecognizers/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="rSR-Ng-6NF">
-                                <rect key="frame" x="28" y="100" width="319" height="30"/>
+                                <rect key="frame" x="28" y="100" width="319" height="22"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목검색" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gy9-AE-Afv">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 제목검색 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gy9-AE-Afv">
+                                        <rect key="frame" x="0.0" y="0.0" width="68" height="22"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nke-if-GB1">
-                                        <rect key="frame" x="61" y="0.0" width="226" height="30"/>
+                                        <rect key="frame" x="70" y="0.0" width="217" height="22"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCc-Qh-sUr">
-                                        <rect key="frame" x="289" y="0.0" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCc-Qh-sUr">
+                                        <rect key="frame" x="289" y="0.0" width="30" height="22"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="6su-36-5ip"/>
                                         </constraints>
-                                        <state key="normal" title="검색"/>
+                                        <state key="normal" image="searchiconf"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -73,7 +73,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6tn-67-ZZ8">
-                                <rect key="frame" x="94" y="200" width="187" height="200"/>
+                                <rect key="frame" x="94" y="192" width="187" height="200"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SSd-jA-LUv">
                                         <rect key="frame" x="0.0" y="0.0" width="187" height="22"/>
@@ -258,7 +258,7 @@
                                 </subviews>
                             </stackView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="나의 핫토픽" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zAo-Ks-EnK">
-                                <rect key="frame" x="94" y="167" width="187" height="30"/>
+                                <rect key="frame" x="94" y="159" width="187" height="30"/>
                                 <color key="backgroundColor" red="0.44290834665298462" green="0.46489411592483521" blue="0.32274794578552246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="187" id="WpZ-Fz-vUv"/>
@@ -267,11 +267,72 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Kvd-Sa-0Gk">
+                                <rect key="frame" x="105" y="440" width="165" height="94"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qze-Of-BA5">
+                                        <rect key="frame" x="0.0" y="0.0" width="165" height="30"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="저자 즐겨찾기" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nyQ-BR-bs4">
+                                                <rect key="frame" x="0.0" y="0.0" width="132" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8H-nK-xMb">
+                                                <rect key="frame" x="132" y="0.0" width="33" height="30"/>
+                                                <state key="normal" image="selecticonFilldown"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="nyQ-BR-bs4" firstAttribute="width" secondItem="G8H-nK-xMb" secondAttribute="width" multiplier="4" id="3et-wa-S5J"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3l-hR-9Nl">
+                                        <rect key="frame" x="0.0" y="32" width="165" height="30"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="기관(학교) 즐겨찾기" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UmM-Ob-Jsw">
+                                                <rect key="frame" x="0.0" y="0.0" width="132" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-3e-3gZ">
+                                                <rect key="frame" x="132" y="0.0" width="33" height="30"/>
+                                                <state key="normal" image="selecticonFilldown"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="UmM-Ob-Jsw" firstAttribute="width" secondItem="aSz-3e-3gZ" secondAttribute="width" multiplier="4" id="imC-oH-9gI"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xP-c9-EbK">
+                                        <rect key="frame" x="0.0" y="64" width="165" height="30"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="최근 열람" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sUd-6M-eoW">
+                                                <rect key="frame" x="0.0" y="0.0" width="132" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nt-jF-cGu">
+                                                <rect key="frame" x="132" y="0.0" width="33" height="30"/>
+                                                <state key="normal" image="selecticonFilldown"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="sUd-6M-eoW" firstAttribute="width" secondItem="3nt-jF-cGu" secondAttribute="width" multiplier="4" id="DSd-SX-UXP"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Vcl-nj-ab5" firstAttribute="top" secondItem="wfy-db-euE" secondAttribute="top" id="1mf-D3-WsN"/>
                             <constraint firstItem="rSR-Ng-6NF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="6Qa-K8-L4o"/>
+                            <constraint firstItem="Kvd-Sa-0Gk" firstAttribute="centerX" secondItem="D7B-eR-sWj" secondAttribute="centerX" id="6Vk-je-hTR"/>
+                            <constraint firstItem="Kvd-Sa-0Gk" firstAttribute="top" secondItem="6tn-67-ZZ8" secondAttribute="bottom" constant="48" id="6lt-b3-M3g"/>
                             <constraint firstItem="zAo-Ks-EnK" firstAttribute="top" secondItem="rSR-Ng-6NF" secondAttribute="bottom" constant="37" id="8Wf-j0-QdO"/>
                             <constraint firstItem="Vcl-nj-ab5" firstAttribute="top" secondItem="D7B-eR-sWj" secondAttribute="bottom" id="9wN-IT-GMc"/>
                             <constraint firstItem="zAo-Ks-EnK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="78" id="9wT-Ze-j8N"/>
@@ -292,7 +353,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Search Paper" id="s3k-0v-Sqa">
-                        <barButtonItem key="rightBarButtonItem" title="설정" id="cUv-06-wfw"/>
+                        <barButtonItem key="rightBarButtonItem" image="settingicon" id="cUv-06-wfw"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -382,11 +443,11 @@
             </objects>
             <point key="canvasLocation" x="1063" y="116"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--My Folder-->
         <scene sceneID="qhv-yb-3d4">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EJl-Ws-vth" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="k2l-tM-U4n"/>
+                    <tabBarItem key="tabBarItem" title="My Folder" image="foldericon" selectedImage="foldericon" id="k2l-tM-U4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="49m-Uy-r52">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1159,10 +1220,14 @@
         <image name="PaperExam" width="356" height="406"/>
         <image name="PaperFinal" width="856" height="1514"/>
         <image name="PaperNews" width="844" height="1492"/>
+        <image name="foldericon" width="25" height="25"/>
         <image name="kakaotalkEx" width="419" height="719"/>
+        <image name="searchiconf" width="15" height="15"/>
+        <image name="selecticonFilldown" width="15" height="15"/>
+        <image name="settingicon" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vIx-dN-4D5"/>
+        <segue reference="nal-AE-4jf"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
