@@ -333,6 +333,14 @@
                                     <segue destination="c2T-se-Pgo" kind="presentation" id="MgI-Vv-jTq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfJ-0V-b1W">
+                                <rect key="frame" x="164" y="96" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="3qi-bd-YMS" kind="show" id="lbf-fY-KpB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -360,7 +368,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Search Paper" id="s3k-0v-Sqa">
-                        <barButtonItem key="rightBarButtonItem" image="settingicon" id="cUv-06-wfw"/>
+                        <barButtonItem key="rightBarButtonItem" image="settingicon" id="cUv-06-wfw">
+                            <connections>
+                                <segue destination="fSL-Ec-Bbm" kind="show" id="gm4-S4-oOX"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -1507,5 +1519,9 @@
         <image name="selecticonFilldown" width="15" height="15"/>
         <image name="settingicon" width="22" height="22"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="lbf-fY-KpB"/>
+        <segue reference="gm4-S4-oOX"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
