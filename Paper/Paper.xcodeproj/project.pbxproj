@@ -17,6 +17,7 @@
 		AD0889C11E260ED1009F63D5 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0889B21E260ED1009F63D5 /* NavigationControllers.swift */; };
 		AD0889C21E260ED1009F63D5 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0889B31E260ED1009F63D5 /* RecordButton.swift */; };
 		AD0889C31E260ED1009F63D5 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0889B41E260ED1009F63D5 /* UIViewController+Navigation.swift */; };
+		AD6F8BCA1E49AC1500A17D7B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F8BC91E49AC1500A17D7B /* CategoryViewController.swift */; };
 		ADCBF65F1E1CC2170014EFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBF65E1E1CC2170014EFDC /* AppDelegate.swift */; };
 		ADCBF6611E1CC2170014EFDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBF6601E1CC2170014EFDC /* ViewController.swift */; };
 		ADCBF6641E1CC2170014EFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCBF6621E1CC2170014EFDC /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		AD0889B21E260ED1009F63D5 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
 		AD0889B31E260ED1009F63D5 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		AD0889B41E260ED1009F63D5 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		AD6F8BC91E49AC1500A17D7B /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		ADCBF65B1E1CC2170014EFDC /* Paper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCBF65E1E1CC2170014EFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADCBF6601E1CC2170014EFDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				ADCBF65E1E1CC2170014EFDC /* AppDelegate.swift */,
 				ADCBF6601E1CC2170014EFDC /* ViewController.swift */,
 				ADCBF6621E1CC2170014EFDC /* Main.storyboard */,
+				AD6F8BC91E49AC1500A17D7B /* CategoryViewController.swift */,
 				ADCBF6651E1CC2170014EFDC /* Assets.xcassets */,
 				ADCBF6671E1CC2170014EFDC /* LaunchScreen.storyboard */,
 				ADCBF66A1E1CC2170014EFDC /* Info.plist */,
@@ -184,6 +187,7 @@
 				AD0889C21E260ED1009F63D5 /* RecordButton.swift in Sources */,
 				AD0889C31E260ED1009F63D5 /* UIViewController+Navigation.swift in Sources */,
 				AD0889C11E260ED1009F63D5 /* NavigationControllers.swift in Sources */,
+				AD6F8BCA1E49AC1500A17D7B /* CategoryViewController.swift in Sources */,
 				AD0889BC1E260ED1009F63D5 /* CHModalViewController.swift in Sources */,
 				AD0889BF1E260ED1009F63D5 /* DrawingCanvasView.swift in Sources */,
 			);
