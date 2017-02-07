@@ -35,7 +35,7 @@ class CategoryViewController: UIViewController {
     }
     
     @IBAction func categoryChange(_ sender: UISegmentedControl) {
-        if(sender.selectedSegmentIndex == 0)
+        if (sender.selectedSegmentIndex == 0)
         {
             self.categoryView1.alpha = 1
             self.categoryView2.alpha = 0
