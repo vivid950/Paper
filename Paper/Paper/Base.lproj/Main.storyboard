@@ -70,6 +70,13 @@
                                     <segue destination="28e-9z-gHd" kind="embed" id="2IJ-Y4-lDc"/>
                                 </connections>
                             </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CPx-KB-2rh">
+                                <rect key="frame" x="0.0" y="158" width="375" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="l3X-oU-dvE" kind="embed" id="6uC-Hi-O9R"/>
+                                </connections>
+                            </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="up1-o3-tgU">
                                 <rect key="frame" x="0.0" y="158" width="375" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -82,13 +89,6 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="hZc-u5-fIe" kind="embed" id="qDa-Mp-79U"/>
-                                </connections>
-                            </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CPx-KB-2rh">
-                                <rect key="frame" x="0.0" y="158" width="375" height="460"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <connections>
-                                    <segue destination="l3X-oU-dvE" kind="embed" id="6uC-Hi-O9R"/>
                                 </connections>
                             </containerView>
                         </subviews>
