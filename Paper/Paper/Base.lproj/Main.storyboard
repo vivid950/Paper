@@ -1413,7 +1413,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PX0-vH-onn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4335" y="1278"/>
+            <point key="canvasLocation" x="4311" y="1200"/>
         </scene>
         <!--WorldTopic-->
         <scene sceneID="ePe-aV-GTR">
@@ -1953,7 +1953,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HM9-y5-lUz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4332" y="1872"/>
+            <point key="canvasLocation" x="5057" y="1278"/>
         </scene>
         <!--Search SiteN Collection View Controller-->
         <scene sceneID="Ihz-Nu-Yed">
@@ -2264,7 +2264,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="At4-P0-F7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3617" y="2415"/>
+            <point key="canvasLocation" x="4311" y="1913"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dhf-T3-obr">
@@ -2503,7 +2503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXv-qy-tOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2980" y="2134"/>
+            <point key="canvasLocation" x="5057" y="1912"/>
         </scene>
     </scenes>
     <resources>
