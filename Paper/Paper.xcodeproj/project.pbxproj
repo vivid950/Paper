@@ -33,6 +33,7 @@
 		ADCBF6641E1CC2170014EFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCBF6621E1CC2170014EFDC /* Main.storyboard */; };
 		ADCBF6661E1CC2170014EFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCBF6651E1CC2170014EFDC /* Assets.xcassets */; };
 		ADCBF6691E1CC2170014EFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCBF6671E1CC2170014EFDC /* LaunchScreen.storyboard */; };
+		F63D61841E52EBF800B56784 /* PaperList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F63D61831E52EBF800B56784 /* PaperList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		BF68373CE27B970514F01AF8 /* Pods_Paper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BFB362B31BABE69CE69702 /* Pods-Paper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paper/Pods-Paper.release.xcconfig"; sourceTree = "<group>"; };
 		E3ACAAB512580067D1173D97 /* Pods-Paper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paper/Pods-Paper.debug.xcconfig"; sourceTree = "<group>"; };
+		F63D61831E52EBF800B56784 /* PaperList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PaperList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				ADCBF65E1E1CC2170014EFDC /* AppDelegate.swift */,
 				ADCBF6601E1CC2170014EFDC /* ViewController.swift */,
 				ADCBF6621E1CC2170014EFDC /* Main.storyboard */,
+				F63D61831E52EBF800B56784 /* PaperList.plist */,
 				AD8098791E52C88700E3CC4D /* PaperCell.swift */,
 				AD80987B1E52C8DD00E3CC4D /* PaperVO.swift */,
 				AD80987D1E52C90900E3CC4D /* ListViewController.swift */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADCBF6691E1CC2170014EFDC /* LaunchScreen.storyboard in Resources */,
+				F63D61841E52EBF800B56784 /* PaperList.plist in Resources */,
 				ADCBF6661E1CC2170014EFDC /* Assets.xcassets in Resources */,
 				ADCBF6641E1CC2170014EFDC /* Main.storyboard in Resources */,
 			);

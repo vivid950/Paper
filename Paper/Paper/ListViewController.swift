@@ -50,7 +50,7 @@ class ListViewController: UITableViewController {
                 let pvo = PaperVO()
                 pvo.title = r["riss.title"].element?.text
                 pvo.author = r["riss.author"].element?.text
-                
+                pvo.urllocate = r["url"].element?.text
                 self.list.append(pvo)
                 
             }
@@ -86,7 +86,7 @@ class ListViewController: UITableViewController {
         
         cell.Title?.text = row.title
         cell.Author?.text = row.author
-        
+        cell.Url?.text = row.urllocate
         
         
         
