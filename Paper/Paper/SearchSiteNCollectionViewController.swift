@@ -14,9 +14,9 @@ class SearchSiteNCollectionViewController: UIViewController, UICollectionViewDat
 
     
     var selectedCell: Int = 0
-    var items: [String] = ["1", "2", "3", "4","5", "6", "7", "8",
-                           "9"]
-    let reuseIdentifier = "CollectionViewCellN" // also enter this string as the cell identifier in the storyboard
+    var items = [String]()
+    
+    let reuseIdentifier = "CollectionViewCellK" // also enter this string as the cell identifier in the storyboard
     
     // MARK: - UICollectionViewDataSource protocol
     
@@ -24,6 +24,8 @@ class SearchSiteNCollectionViewController: UIViewController, UICollectionViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         selectedCell = 0
+        
+        items = ["riss","KISS","center","digital","CSERIC","ITFIND","LG","KISTI"]
         
         self.SiteN1.alpha = 1
         self.SiteN2.alpha = 0
@@ -41,7 +43,9 @@ class SearchSiteNCollectionViewController: UIViewController, UICollectionViewDat
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! CollectionViewCell
         
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
-        cell.myLabelN.text = self.items[indexPath.item]
+        var imageView = cell.viewWithTag(2) as! UIImageView
+        
+        imageView.image = UIImage(named: items[indexPath.row])
         
         
         cell.backgroundColor = UIColor.cyan // make cell more visible in our example project

@@ -283,7 +283,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KSI 학술 데이터베이스" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpJ-FF-nrU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KISS 학술 데이터베이스" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpJ-FF-nrU">
                                 <rect key="frame" x="0.0" y="58" width="178" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.88966411352157593" green="0.9150547981262207" blue="0.8443644642829895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -653,31 +653,28 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1WZ-Br-YlQ">
-                                    <size key="itemSize" width="50" height="41"/>
+                                    <size key="itemSize" width="50" height="32"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCellK" id="chl-Sn-cAr" customClass="CollectionViewCell" customModule="Paper" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCellN" id="chl-Sn-cAr" customClass="CollectionViewCell" customModule="Paper" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="32"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="32"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9H-3a-cLW">
-                                                    <rect key="frame" x="4" y="15" width="42" height="21"/>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9mk-ck-E8l">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="33"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                </imageView>
                                             </subviews>
                                         </view>
                                         <size key="customSize" width="50" height="32"/>
                                         <connections>
-                                            <outlet property="myLabelK" destination="o9H-3a-cLW" id="Jgr-5l-Ogw"/>
+                                            <outlet property="searchsiteN" destination="9mk-ck-E8l" id="hFU-2E-wYj"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -712,7 +709,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2tb-UX-wlp" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3616.8000000000002" y="1240.9295352323838"/>
+            <point key="canvasLocation" x="3615.1999999999998" y="1240.0299850074964"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="H8J-Ih-kij">
@@ -1504,25 +1501,22 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCellN" id="YwW-Qf-i46" customClass="CollectionViewCell" customModule="Paper" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCellK" id="YwW-Qf-i46" customClass="CollectionViewCell" customModule="Paper" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="32"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nc7-5D-Tjy">
-                                                    <rect key="frame" x="4" y="6" width="42" height="21"/>
+                                                <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v8g-Vq-5xd">
+                                                    <rect key="frame" x="0.0" y="8" width="50" height="33"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                </imageView>
                                             </subviews>
                                         </view>
                                         <size key="customSize" width="50" height="32"/>
                                         <connections>
-                                            <outlet property="myLabelN" destination="Nc7-5D-Tjy" id="Jsl-fB-w6a"/>
+                                            <outlet property="searchsiteK" destination="v8g-Vq-5xd" id="rAh-SD-auu"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -1532,14 +1526,14 @@
                                 </connections>
                             </collectionView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zT7-EU-qMD">
-                                <rect key="frame" x="0.0" y="41" width="375" height="480"/>
+                                <rect key="frame" x="0.0" y="40" width="375" height="481"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="FgG-hH-xHW" kind="embed" id="o8c-Tr-ax4"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1kI-fe-KWs">
-                                <rect key="frame" x="0.0" y="41" width="375" height="480"/>
+                                <rect key="frame" x="0.0" y="40" width="375" height="481"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="vI3-gC-fH1" kind="embed" id="aaK-cw-Fad"/>
@@ -1555,14 +1549,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KG9-zN-oWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3522" y="1972"/>
+            <point key="canvasLocation" x="3520.8000000000002" y="1970.4647676161921"/>
         </scene>
         <!--List View Controller-->
         <scene sceneID="nTz-jT-68q">
             <objects>
                 <tableViewController id="vI3-gC-fH1" customClass="ListViewController" customModule="Paper" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="77" sectionHeaderHeight="28" sectionFooterHeight="28" id="hdF-7o-rzs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="481"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.97244364023208618" green="0.97260981798171997" blue="0.97243314981460571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
@@ -1630,7 +1624,7 @@
             <objects>
                 <tableViewController id="FgG-hH-xHW" customClass="ListViewController3" customModule="Paper" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="77" sectionHeaderHeight="28" sectionFooterHeight="28" id="dGb-Cv-4W5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="481"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>

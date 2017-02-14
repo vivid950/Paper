@@ -10,7 +10,7 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var myLabelK: UILabel!
-    @IBOutlet weak var myLabelN: UILabel!
+    @IBOutlet weak var searchsiteN: UIImageView!
     
+    @IBOutlet weak var searchsiteK: UIImageView!
 }
