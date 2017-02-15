@@ -11,7 +11,7 @@ class SearchSiteCollectionViewController: UIViewController, UICollectionViewData
 
     @IBOutlet weak var SiteK1: UIView!
     @IBOutlet weak var SiteK2: UIView!
-    @IBOutlet weak var SiteN: UIView!
+    @IBOutlet weak var SiteK: UIView!
     
     var selectedCell: Int = 0
     var items = [String]()
@@ -27,9 +27,9 @@ class SearchSiteCollectionViewController: UIViewController, UICollectionViewData
         
         items = ["riss","KISS","center","digital","CSERIC","ITFIND","LG","KISTI"]
         
-        self.SiteK1.alpha = 1
+        self.SiteK.alpha = 1
+        self.SiteK1.alpha = 0
         self.SiteK2.alpha = 0
-        self.SiteN.alpha = 1
         
     }
     
@@ -62,12 +62,21 @@ class SearchSiteCollectionViewController: UIViewController, UICollectionViewData
         
         if(indexPath.item == 0)
         {
-            self.SiteK1.alpha = 1
+            self.SiteK.alpha = 1
+            self.SiteK1.alpha = 0
             self.SiteK2.alpha = 0
         }
             
         else if(indexPath.item == 1)
         {
+            self.SiteK.alpha = 0
+            self.SiteK1.alpha = 1
+            self.SiteK2.alpha = 0
+        }
+        
+        else if(indexPath.item == 7)
+        {
+            self.SiteK.alpha = 0
             self.SiteK1.alpha = 0
             self.SiteK2.alpha = 1
         }
