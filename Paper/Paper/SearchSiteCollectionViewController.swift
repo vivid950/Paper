@@ -12,6 +12,8 @@ class SearchSiteCollectionViewController: UIViewController, UICollectionViewData
     @IBOutlet weak var SiteK1: UIView!
     @IBOutlet weak var SiteK2: UIView!
     @IBOutlet weak var SiteK: UIView!
+
+    
     
     var selectedCell: Int = 0
     var items = [String]()
@@ -30,6 +32,7 @@ class SearchSiteCollectionViewController: UIViewController, UICollectionViewData
         self.SiteK.alpha = 1
         self.SiteK1.alpha = 0
         self.SiteK2.alpha = 0
+
         
     }
     

@@ -18,6 +18,7 @@
 		AD0889C11E260ED1009F63D5 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0889B21E260ED1009F63D5 /* NavigationControllers.swift */; };
 		AD0889C21E260ED1009F63D5 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0889B31E260ED1009F63D5 /* RecordButton.swift */; };
 		AD0889C31E260ED1009F63D5 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0889B41E260ED1009F63D5 /* UIViewController+Navigation.swift */; };
+		AD53F3D61E54134800F15D04 /* DetailSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53F3D51E54134800F15D04 /* DetailSearchViewController.swift */; };
 		AD6F8BCA1E49AC1500A17D7B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F8BC91E49AC1500A17D7B /* CategoryViewController.swift */; };
 		AD80987A1E52C88700E3CC4D /* PaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8098791E52C88700E3CC4D /* PaperCell.swift */; };
 		AD80987C1E52C8DD00E3CC4D /* PaperVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD80987B1E52C8DD00E3CC4D /* PaperVO.swift */; };
@@ -48,6 +49,7 @@
 		AD0889B21E260ED1009F63D5 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
 		AD0889B31E260ED1009F63D5 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		AD0889B41E260ED1009F63D5 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		AD53F3D51E54134800F15D04 /* DetailSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSearchViewController.swift; sourceTree = "<group>"; };
 		AD6F8BC91E49AC1500A17D7B /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		AD8098791E52C88700E3CC4D /* PaperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperCell.swift; sourceTree = "<group>"; };
 		AD80987B1E52C8DD00E3CC4D /* PaperVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperVO.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				ADCBF65E1E1CC2170014EFDC /* AppDelegate.swift */,
 				ADCBF6601E1CC2170014EFDC /* ViewController.swift */,
 				ADCBF6621E1CC2170014EFDC /* Main.storyboard */,
+				AD53F3D51E54134800F15D04 /* DetailSearchViewController.swift */,
 				DE5D2F841E53735600886AA2 /* pageVC.swift */,
 				F63D61831E52EBF800B56784 /* PaperList.plist */,
 				AD8098791E52C88700E3CC4D /* PaperCell.swift */,
@@ -300,6 +303,7 @@
 				ADBEB25F1E5151EB0001C935 /* KeyworldViewController.swift in Sources */,
 				AD0889C21E260ED1009F63D5 /* RecordButton.swift in Sources */,
 				ADBEB2AB1E51967C0001C935 /* CollectionViewCell.swift in Sources */,
+				AD53F3D61E54134800F15D04 /* DetailSearchViewController.swift in Sources */,
 				AD0889C31E260ED1009F63D5 /* UIViewController+Navigation.swift in Sources */,
 				ADBEB2AD1E51A0D00001C935 /* SearchSiteNCollectionViewController.swift in Sources */,
 				AD0889C11E260ED1009F63D5 /* NavigationControllers.swift in Sources */,
