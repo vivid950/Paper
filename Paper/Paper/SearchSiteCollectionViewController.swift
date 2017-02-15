@@ -25,7 +25,7 @@ class SearchSiteCollectionViewController: UIViewController, UICollectionViewData
         super.viewDidLoad()
         selectedCell = 0
         
-        items = ["riss","KISS","center","digital","CSERIC","ITFIND","LG","KISTI"]
+        items = ["riss","KISS","center","digital","CSERIC","ITFIND","LG","KISTI","google","scopus","IEEE","Jstage","science","acm","citeseerx","pubmed","wos2"]
         
         self.SiteK.alpha = 1
         self.SiteK1.alpha = 0
@@ -74,7 +74,7 @@ class SearchSiteCollectionViewController: UIViewController, UICollectionViewData
             self.SiteK2.alpha = 0
         }
         
-        else if(indexPath.item == 7)
+        else if(indexPath.item == 9)
         {
             self.SiteK.alpha = 0
             self.SiteK1.alpha = 0
